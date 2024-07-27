@@ -3245,10 +3245,10 @@ input, select, textarea {
 			-webkit-transition: opacity 0s ease;
 			-ms-transition: opacity 0s ease;
 			transition: opacity 0s ease;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			-moz-transition-delay: 0s;
+			-webkit-transition-delay: 0s;
+			-ms-transition-delay: 0s;
+			transition-delay: 0s;
 			-moz-animation: none;
 			-webkit-animation: none;
 			-ms-animation: none;
