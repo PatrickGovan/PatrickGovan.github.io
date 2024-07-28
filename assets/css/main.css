@@ -160,11 +160,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9bf1ff !important;
+			color: #85f488 !important;
 		}
 
 		a:active {
-			color: #53e3fb !important;
+			color: #85f488 !important;
 		}
 
 	strong, b {
@@ -2151,11 +2151,11 @@ input, select, textarea {
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #6fc3df;
+		background-color: #85f488;
 	}
 
 	a.icon.alt:active:before {
-		background-color: #37a6cb;
+		background-color: #85f488;
 	}
 
 /* Image */
