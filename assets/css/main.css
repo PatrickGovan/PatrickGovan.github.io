@@ -3620,6 +3620,13 @@ input, select, textarea {
 			background-color: transparent;
 			border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 		}
+		#main.skill > * > .inner {
+    			padding: 4em 0 2em 0;
+    			margin: 0 auto;
+    			max-width: none; /* Remove max-width restriction */
+    			width: 100%; /* Full width */
+		}
+		
 
 /* Contact */
 
