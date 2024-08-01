@@ -3069,6 +3069,11 @@ input, select, textarea {
 		min-height: 1.5em;
 		overflow: hidden;
 	}
+	progress::-webkit-progress-bar {
+    		background-color: #ffffff; /* Ensures the bar background is white */
+    		border-radius: 1em; /* Matching the main progress element */
+	}
+
 	
 	progress::-webkit-progress-value {
 		background: #6b9172;
@@ -3076,13 +3081,13 @@ input, select, textarea {
         }
 
 	progress::-moz-progress-value {
-	background: #6b9172;
-	border-radius: 1em 0 0 1em;
+		background: #6b9172;
+		border-radius: 1em 0 0 1em;
 	}
 
 	progress::-ms-progress-value {
-	background: #6b9172;
-	border-radius: 1em 0 0 1em;
+		background: #6b9172;
+		border-radius: 1em 0 0 1em;
 	}
 	
 	.progress-header {
