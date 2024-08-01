@@ -3062,20 +3062,20 @@ input, select, textarea {
 
 	progress {
 		background-color: #ffffff;
-		border-radius: 1rem;
-		padding: 0.25rem;
+		border-radius: 1em;
+		padding: 0.25em;
 		width: 0;
 		min-width: 100%;
-		min-height: 1.5rem;
+		min-height: 1.5em;
 	}
 	
 	progress::-webkit-progress-value {
 		background: #6b9172;
-		border-radius: 1rem;
+		border-radius: 1em;
     }
 	
 	.progress-header {
-		padding-left: 0.5rem;
+		padding-left: 0.5em;
 	}
 
 /* Header */
