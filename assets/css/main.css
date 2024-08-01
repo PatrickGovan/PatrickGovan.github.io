@@ -3067,12 +3067,23 @@ input, select, textarea {
 		width: 0;
 		min-width: 100%;
 		min-height: 1.5em;
+		overflow: hidden;
 	}
 	
 	progress::-webkit-progress-value {
 		background: #6b9172;
 		border-radius: 1em;
-    }
+        }
+
+	progress::-moz-progress-value {
+	background: #6b9172;
+	border-radius: 1em 0 0 1em;
+	}
+
+	progress::-ms-progress-value {
+	background: #6b9172;
+	border-radius: 1em 0 0 1em;
+	}
 	
 	.progress-header {
 		padding-left: 0.5em;
