@@ -3058,6 +3058,25 @@ input, select, textarea {
 			}
 
 		}
+/* Progress Bars */
+
+	progress {
+		background-color: #808080;
+		border-radius: 1rem;
+		padding: 0.25rem;
+		width: 0;
+		min-width: 100%;
+		min-height: 1.5rem;
+	}
+	
+	progress::-webkit-progress-value {
+		background: #8fb2eb;
+		border-radius: 1rem;
+    }
+	
+	.progress-header {
+		padding-left: 0.5rem;
+	}
 
 /* Header */
 
