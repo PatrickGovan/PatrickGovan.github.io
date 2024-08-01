@@ -3061,7 +3061,7 @@ input, select, textarea {
 /* Progress Bars */
 
 	progress {
-		background-color: #808080;
+		background-color: #ffffff;
 		border-radius: 1rem;
 		padding: 0.25rem;
 		width: 0;
@@ -3070,7 +3070,7 @@ input, select, textarea {
 	}
 	
 	progress::-webkit-progress-value {
-		background: #8fb2eb;
+		background: #6b9172;
 		border-radius: 1rem;
     }
 	
